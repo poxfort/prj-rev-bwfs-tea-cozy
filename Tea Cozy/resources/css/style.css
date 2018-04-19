@@ -1,0 +1,155 @@
+html {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+h1 {
+  display: none;
+}
+
+header li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+header img {
+  float: left;
+  height: 50px;
+  margin: 10px;
+}
+
+header nav {
+  float: right;
+}
+
+main, footer {
+  position: relative;
+  top: 70px;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center center;
+  height: 700px;
+  justify-content: center;
+  margin: auto;
+  width: 1200px;
+}
+
+#mission div {
+  background-color: black;
+  width: 100%;
+}
+
+#mission h2 {
+  margin: 10px;
+}
+
+#mission h4 {
+  margin: 10px;
+  padding-top: 15px;
+}
+
+#tea h2 {
+  margin-top: 70px;
+}
+
+.tea-choices {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-item h4 {
+  margin: 10px 0px 20px 0px;
+}
+
+.tea-item img {
+  height: 200px;
+  margin: 0px 15px;
+  width: 300px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center -70px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: top;
+  margin: auto;
+  margin-top: 50px;
+  width: 1200px;
+}
+
+#locations h2 {
+  margin-top: 75px;
+}
+
+.locations-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  background-color: black;
+  margin-right: 40px;
+  opacity: 1;
+  width: 300px;
+}
+
+footer div {
+  height: 200px;
+}
+
+footer a {
+  display: inline-block;
+  font-weight: bold;
+  font-style: normal;
+  margin: 10px;
+  text-decoration: none;
+}
+
+footer h2 {
+  margin-top: 10px;
+}
+
+footer p {
+  display: block;
+  margin-left: 20px;
+  text-align: left;
+}
